@@ -1,0 +1,23 @@
+graph LR
+    Student(["👤 Student"])
+    Admin(["👤 Administrator"])
+
+    subgraph System ["Graph Data Science System"]
+        UC1(["Recommend friends"])
+        UC2(["Recommend clubs"])
+        UC3(["Recommend events"])
+        UC4(["View graph statistics"])
+        UC5(["Detect communities"])
+        UC6(["Compare algorithms"])
+        UC7(["Manage graph data"])
+    end
+
+    Student --> UC1
+    Student --> UC2
+    Student --> UC3
+    Student --> UC4
+
+    Admin --> UC4
+    Admin --> UC5
+    Admin --> UC6
+    Admin --> UC7
