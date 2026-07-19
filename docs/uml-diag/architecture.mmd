@@ -1,0 +1,31 @@
+graph TD
+    subgraph Client ["Client Layer"]
+        C1["Swagger UI / ReDoc"]
+        C2["External client app"]
+        C3["Jupyter notebooks"]
+    end
+
+    subgraph API ["API Layer — FastAPI + Uvicorn"]
+        A1["Routers\n/students /communities\n/recommendations"]
+        A2["Services\nBusiness logic"]
+        A3["Repositories\nCypher queries"]
+        A4["Schemas\nPydantic validation"]
+    end
+
+    subgraph Analytics ["Graph Analytics Engine — Python"]
+        G1["Community detection\nLouvain · Leiden · LPA"]
+        G2["Link prediction\nCN · Jaccard · Adamic-Adar"]
+        G3["Embeddings\nNode2Vec · GraphSAGE"]
+        G4["Centrality\nDegree · PageRank · Betweenness"]
+    end
+
+    subgraph Storage ["Storage Layer"]
+        S1[("Neo4j + GDS plugin")]
+        S2[("Node2Vec embeddings store")]
+    end
+
+    C1 & C2 & C3 -->|HTTP / REST| A1
+    A1 --> A2 --> A3 --> A4
+    A2 -->|Python calls| G1 & G2 & G3 & G4
+    A3 -->|Cypher / Bolt| S1
+    G3 --> S2
