@@ -1,0 +1,301 @@
+id,name,date,type
+event-001,Future of Education Conference,2024-08-01,Conference
+event-002,Traditional Arts Exhibition,2024-11-10,Cultural
+event-003,Volleyball Tournament,2025-01-17,Sports
+event-004,Machine Learning Workshop,2024-11-03,Workshop
+event-005,Tennis Tournament,2023-07-23,Sports
+event-006,Innovation Challenge,2023-12-20,Competition
+event-007,Sports Day,2023-08-07,Sports
+event-008,Future of Education Conference,2022-02-10,Conference
+event-009,Cybersecurity Conference,2024-05-09,Conference
+event-010,Data Science Workshop,2024-02-09,Workshop
+event-011,Entrepreneurship Seminar,2022-06-23,Seminar
+event-012,University Football Tournament,2022-03-12,Sports
+event-013,Meet the Professionals,2024-01-14,Career
+event-014,Future of Artificial Intelligence,2023-01-17,Conference
+event-015,Programming Contest,2024-05-14,Competition
+event-016,Football Tournament,2022-07-26,Competition
+event-017,Innovation Challenge,2024-09-26,Competition
+event-018,Traditional Arts Exhibition,2021-11-12,Cultural
+event-019,Hackathon,2025-03-21,Competition
+event-020,Sports Day,2022-03-05,Sports
+event-021,Cybersecurity Challenge,2023-12-20,Competition
+event-022,Moroccan Culture Day,2024-12-15,Cultural
+event-023,Research Methodology Seminar,2023-01-28,Seminar
+event-024,Gaming Tournament,2022-08-13,Competition
+event-025,Football Tournament,2023-07-08,Competition
+event-026,Career Development Seminar,2022-06-22,Seminar
+event-027,Heritage Celebration,2022-12-30,Cultural
+event-028,Artificial Intelligence and Society,2023-06-13,Seminar
+event-029,Internship Opportunities Day,2024-11-07,Career
+event-030,Inter-Club Sports Tournament,2022-05-02,Sports
+event-031,Career Development Seminar,2023-06-01,Seminar
+event-032,Job Opportunities Forum,2026-05-11,Career
+event-033,Innovation Challenge,2024-08-05,Competition
+event-034,Introduction to Artificial Intelligence,2022-10-31,Workshop
+event-035,Data Science Workshop,2021-12-22,Workshop
+event-036,Tennis Tournament,2022-09-21,Sports
+event-037,Chess Tournament,2024-02-18,Competition
+event-038,Programming Contest,2025-07-11,Competition
+event-039,Cultural Exchange Day,2026-01-26,Cultural
+event-040,Moroccan Culture Day,2023-09-26,Cultural
+event-041,Hackathon,2025-11-12,Competition
+event-042,Introduction to Machine Learning,2025-02-24,Seminar
+event-043,Research Methodology Seminar,2024-12-19,Seminar
+event-044,World Languages Day,2024-11-13,Cultural
+event-045,Community Meetup,2024-06-18,Social
+event-046,Public Speaking Workshop,2024-01-08,Workshop
+event-047,Volleyball Tournament,2023-02-27,Sports
+event-048,Community Meetup,2023-02-07,Social
+event-049,International Culture Festival,2023-05-17,Cultural
+event-050,Startup Competition,2026-06-11,Competition
+event-051,Robotics Competition,2025-08-21,Competition
+event-052,Volleyball Tournament,2025-10-15,Sports
+event-053,Docker Workshop,2025-10-18,Workshop
+event-054,AI Challenge,2021-08-20,Competition
+event-055,AI Challenge,2023-12-16,Competition
+event-056,Entrepreneurship Seminar,2025-10-25,Seminar
+event-057,Job Opportunities Forum,2025-08-02,Career
+event-058,Hackathon,2023-04-08,Competition
+event-059,World Languages Day,2021-09-29,Cultural
+event-060,Chess Tournament,2023-07-08,Competition
+event-061,Machine Learning Workshop,2026-03-05,Workshop
+event-062,Traditional Arts Exhibition,2023-01-23,Cultural
+event-063,Introduction to Machine Learning,2022-01-13,Seminar
+event-064,Chess Tournament,2023-05-30,Competition
+event-065,AI Challenge,2021-12-04,Competition
+event-066,Future of Education Conference,2023-08-18,Conference
+event-067,CV and Interview Workshop,2024-04-15,Career
+event-068,Public Speaking Workshop,2024-01-02,Workshop
+event-069,Leadership Seminar,2024-03-08,Seminar
+event-070,Public Speaking Workshop,2025-06-30,Workshop
+event-071,Startup Competition,2021-12-24,Competition
+event-072,Football Tournament,2021-11-01,Competition
+event-073,Community Meetup,2021-10-08,Social
+event-074,Volleyball Tournament,2022-08-17,Sports
+event-075,Software Engineering Conference,2026-07-14,Conference
+event-076,Data Science Workshop,2022-03-13,Workshop
+event-077,Cybersecurity Challenge,2023-08-19,Competition
+event-078,Entrepreneurship Seminar,2022-05-22,Seminar
+event-079,Git and GitHub Workshop,2022-02-02,Workshop
+event-080,Moroccan Culture Day,2024-09-03,Cultural
+event-081,Web Development Workshop,2023-11-25,Workshop
+event-082,University Football Tournament,2022-06-10,Sports
+event-083,Research Methodology Seminar,2025-02-12,Seminar
+event-084,Robotics Competition,2021-07-29,Competition
+event-085,Student Social Night,2025-05-11,Social
+event-086,Heritage Celebration,2025-10-23,Cultural
+event-087,Software Engineering Best Practices,2023-03-28,Seminar
+event-088,Football Tournament,2023-06-13,Competition
+event-089,Tennis Tournament,2024-02-28,Sports
+event-090,Cloud Computing Workshop,2021-08-28,Workshop
+event-091,Research Methodology Seminar,2022-07-18,Seminar
+event-092,Traditional Arts Exhibition,2025-02-27,Cultural
+event-093,Future of Education Conference,2022-05-30,Conference
+event-094,Career Development Seminar,2022-12-05,Seminar
+event-095,Career Fair,2023-01-19,Career
+event-096,Job Opportunities Forum,2026-01-26,Career
+event-097,Cybersecurity Challenge,2023-08-12,Competition
+event-098,Football Tournament,2023-01-13,Competition
+event-099,Hackathon,2023-10-02,Competition
+event-100,Innovation Challenge,2023-08-03,Competition
+event-101,Software Engineering Conference,2023-11-08,Conference
+event-102,Inter-Club Sports Tournament,2025-03-04,Sports
+event-103,Docker Workshop,2025-06-26,Workshop
+event-104,Git and GitHub Workshop,2024-10-13,Workshop
+event-105,Docker Workshop,2022-05-23,Workshop
+event-106,Cultural Exchange Day,2024-06-08,Cultural
+event-107,Gaming Tournament,2025-01-26,Competition
+event-108,Football Tournament,2026-07-16,Competition
+event-109,Moroccan Culture Day,2024-03-13,Cultural
+event-110,Tennis Tournament,2025-12-03,Sports
+event-111,Docker Workshop,2026-05-01,Workshop
+event-112,Future of Education Conference,2026-01-20,Conference
+event-113,Athletics Competition,2021-09-02,Sports
+event-114,Git and GitHub Workshop,2026-01-04,Workshop
+event-115,University Football Tournament,2024-08-07,Sports
+event-116,University Football Tournament,2021-10-21,Sports
+event-117,Volleyball Tournament,2022-03-29,Sports
+event-118,Cultural Exchange Day,2024-12-01,Cultural
+event-119,Tennis Tournament,2023-02-25,Sports
+event-120,Cloud Computing Workshop,2026-01-04,Workshop
+event-121,Tech Companies Recruitment Day,2026-06-21,Career
+event-122,Innovation Challenge,2022-08-20,Competition
+event-123,University Running Challenge,2023-09-23,Sports
+event-124,Software Engineering Conference,2023-11-25,Conference
+event-125,Career in Technology,2023-11-17,Career
+event-126,Cybersecurity Fundamentals,2023-12-26,Workshop
+event-127,Moroccan Culture Day,2023-03-29,Cultural
+event-128,Volleyball Tournament,2023-12-19,Sports
+event-129,Cultural Exchange Day,2024-08-16,Cultural
+event-130,Heritage Celebration,2026-05-09,Cultural
+event-131,Football Tournament,2022-02-22,Competition
+event-132,University Football Tournament,2025-08-27,Sports
+event-133,Student Social Night,2022-12-10,Social
+event-134,Software Engineering Best Practices,2024-03-09,Seminar
+event-135,Tech Companies Recruitment Day,2024-03-20,Career
+event-136,Cybersecurity Conference,2024-09-01,Conference
+event-137,Inter-Club Sports Tournament,2025-04-24,Sports
+event-138,Artificial Intelligence and Society,2026-07-05,Seminar
+event-139,CV and Interview Workshop,2022-09-03,Career
+event-140,Heritage Celebration,2024-10-29,Cultural
+event-141,Artificial Intelligence and Society,2023-02-17,Seminar
+event-142,Innovation Challenge,2025-11-08,Competition
+event-143,University Football Tournament,2021-08-20,Sports
+event-144,Public Speaking Workshop,2022-09-01,Workshop
+event-145,Git and GitHub Workshop,2023-10-28,Workshop
+event-146,Tennis Tournament,2021-10-10,Sports
+event-147,Career Fair,2023-07-17,Career
+event-148,Cybersecurity Fundamentals,2026-04-16,Workshop
+event-149,World Languages Day,2021-10-26,Cultural
+event-150,Sustainable Technology Conference,2025-07-09,Conference
+event-151,Basketball Tournament,2023-01-10,Sports
+event-152,Startup Competition,2024-01-17,Competition
+event-153,Basketball Tournament,2024-05-23,Sports
+event-154,Digital Transformation Conference,2021-09-30,Conference
+event-155,Machine Learning Workshop,2026-03-26,Workshop
+event-156,Inter-Club Sports Tournament,2025-05-08,Sports
+event-157,Hackathon,2022-09-08,Competition
+event-158,Innovation Challenge,2023-09-19,Competition
+event-159,Career Development Seminar,2022-01-15,Seminar
+event-160,Software Engineering Best Practices,2025-09-13,Seminar
+event-161,Meet the Professionals,2024-04-04,Career
+event-162,CV and Interview Workshop,2023-05-17,Career
+event-163,Volleyball Tournament,2025-09-19,Sports
+event-164,Community Meetup,2026-04-05,Social
+event-165,Research Methodology Seminar,2022-09-28,Seminar
+event-166,Student Social Night,2024-02-04,Social
+event-167,Artificial Intelligence and Society,2023-01-23,Seminar
+event-168,Research Methodology Seminar,2026-05-30,Seminar
+event-169,Chess Tournament,2025-06-26,Competition
+event-170,Future of Education Conference,2024-04-15,Conference
+event-171,Career Fair,2026-06-19,Career
+event-172,Sports Day,2022-03-27,Sports
+event-173,Future of Education Conference,2021-09-13,Conference
+event-174,Sports Day,2023-11-03,Sports
+event-175,Sports Day,2025-08-03,Sports
+event-176,Chess Tournament,2022-03-28,Competition
+event-177,Gaming Tournament,2024-02-01,Competition
+event-178,Artificial Intelligence and Society,2022-08-28,Seminar
+event-179,Basketball Tournament,2023-09-04,Sports
+event-180,Inter-Club Sports Tournament,2025-12-10,Sports
+event-181,Innovation Challenge,2021-09-01,Competition
+event-182,University Running Challenge,2025-10-02,Sports
+event-183,Artificial Intelligence and Society,2021-12-14,Seminar
+event-184,Entrepreneurship Seminar,2022-06-20,Seminar
+event-185,Python Programming Workshop,2022-05-07,Workshop
+event-186,Tech Companies Recruitment Day,2022-09-11,Career
+event-187,Cybersecurity Challenge,2024-04-05,Competition
+event-188,Job Opportunities Forum,2026-01-03,Career
+event-189,Charity Event,2023-07-21,Social
+event-190,Cybersecurity Awareness,2023-05-04,Seminar
+event-191,Technology Innovation Conference,2025-04-01,Conference
+event-192,Cybersecurity Challenge,2023-07-10,Competition
+event-193,Athletics Competition,2024-11-03,Sports
+event-194,University Running Challenge,2025-02-07,Sports
+event-195,Cybersecurity Fundamentals,2025-06-15,Workshop
+event-196,Cloud Computing Workshop,2023-08-17,Workshop
+event-197,Artificial Intelligence and Society,2022-08-22,Seminar
+event-198,Cybersecurity Fundamentals,2026-01-09,Workshop
+event-199,Cybersecurity Conference,2024-06-16,Conference
+event-200,Future of Education Conference,2026-06-29,Conference
+event-201,Sports Day,2023-03-26,Sports
+event-202,Chess Tournament,2025-05-21,Competition
+event-203,Career Fair,2023-04-27,Career
+event-204,Robotics Competition,2026-03-05,Competition
+event-205,Meet the Professionals,2025-11-06,Career
+event-206,Cybersecurity Fundamentals,2022-11-28,Workshop
+event-207,Cybersecurity Awareness,2022-10-30,Seminar
+event-208,Startup Competition,2025-12-27,Competition
+event-209,World Languages Day,2022-12-03,Cultural
+event-210,Sustainable Technology Conference,2022-04-02,Conference
+event-211,Career Development Seminar,2024-03-02,Seminar
+event-212,Cultural Exchange Day,2024-10-24,Cultural
+event-213,Sports Day,2025-02-12,Sports
+event-214,Artificial Intelligence and Society,2024-05-05,Seminar
+event-215,Cybersecurity Awareness,2023-03-03,Seminar
+event-216,Traditional Arts Exhibition,2022-10-07,Cultural
+event-217,Git and GitHub Workshop,2022-12-17,Workshop
+event-218,Cybersecurity Challenge,2022-10-31,Competition
+event-219,Web Development Workshop,2026-05-28,Workshop
+event-220,University Running Challenge,2024-04-13,Sports
+event-221,Introduction to Artificial Intelligence,2023-09-14,Workshop
+event-222,Docker Workshop,2025-07-15,Workshop
+event-223,University Football Tournament,2022-05-11,Sports
+event-224,University Running Challenge,2026-07-10,Sports
+event-225,Web Development Workshop,2024-06-01,Workshop
+event-226,Volleyball Tournament,2024-10-31,Sports
+event-227,Machine Learning Workshop,2024-08-04,Workshop
+event-228,Introduction to Artificial Intelligence,2025-11-27,Workshop
+event-229,Tennis Tournament,2022-06-14,Sports
+event-230,Inter-Club Sports Tournament,2022-08-04,Sports
+event-231,Python Programming Workshop,2023-12-27,Workshop
+event-232,Web Development Workshop,2025-10-03,Workshop
+event-233,Docker Workshop,2023-03-25,Workshop
+event-234,AI Challenge,2025-02-01,Competition
+event-235,Athletics Competition,2024-06-22,Sports
+event-236,Inter-Club Sports Tournament,2024-05-14,Sports
+event-237,Programming Contest,2023-09-17,Competition
+event-238,Volleyball Tournament,2022-02-11,Sports
+event-239,Cloud Computing Workshop,2024-10-04,Workshop
+event-240,Robotics Competition,2023-01-08,Competition
+event-241,Hackathon,2022-03-17,Competition
+event-242,Programming Contest,2023-03-28,Competition
+event-243,Student Welcome Day,2021-08-31,Social
+event-244,Gaming Tournament,2025-07-05,Competition
+event-245,CV and Interview Workshop,2026-01-03,Career
+event-246,CV and Interview Workshop,2025-06-28,Career
+event-247,Athletics Competition,2024-08-10,Sports
+event-248,Chess Tournament,2025-01-13,Competition
+event-249,Inter-Club Sports Tournament,2023-02-28,Sports
+event-250,Student Welcome Day,2022-11-21,Social
+event-251,University Football Tournament,2022-06-08,Sports
+event-252,Introduction to Machine Learning,2024-07-10,Seminar
+event-253,International Culture Festival,2026-01-01,Cultural
+event-254,Startup Competition,2026-01-23,Competition
+event-255,Machine Learning Workshop,2023-06-07,Workshop
+event-256,Basketball Tournament,2023-02-06,Sports
+event-257,Football Tournament,2021-12-15,Competition
+event-258,Startup Competition,2025-05-11,Competition
+event-259,Git and GitHub Workshop,2024-07-23,Workshop
+event-260,Data Science Workshop,2024-10-24,Workshop
+event-261,Tech Companies Recruitment Day,2022-09-27,Career
+event-262,Moroccan Culture Day,2023-02-02,Cultural
+event-263,Volunteer Day,2023-06-18,Social
+event-264,Entrepreneurship Seminar,2024-08-15,Seminar
+event-265,Cultural Exchange Day,2023-07-18,Cultural
+event-266,Basketball Tournament,2022-09-01,Sports
+event-267,Software Engineering Best Practices,2023-11-10,Seminar
+event-268,Tennis Tournament,2026-04-04,Sports
+event-269,Volunteer Day,2024-09-19,Social
+event-270,Leadership Seminar,2023-12-24,Seminar
+event-271,Tennis Tournament,2024-04-09,Sports
+event-272,International Culture Festival,2023-11-12,Cultural
+event-273,Sustainable Technology Conference,2024-11-04,Conference
+event-274,Sports Day,2022-06-28,Sports
+event-275,Technology Innovation Conference,2023-03-08,Conference
+event-276,Future of Artificial Intelligence,2026-03-27,Conference
+event-277,Career Development Seminar,2021-10-04,Seminar
+event-278,Introduction to Artificial Intelligence,2026-06-22,Workshop
+event-279,Programming Contest,2026-05-25,Competition
+event-280,Docker Workshop,2021-08-05,Workshop
+event-281,Introduction to Artificial Intelligence,2026-04-21,Workshop
+event-282,Traditional Arts Exhibition,2023-04-29,Cultural
+event-283,Public Speaking Workshop,2025-10-17,Workshop
+event-284,Chess Tournament,2023-10-20,Competition
+event-285,Leadership Seminar,2024-02-08,Seminar
+event-286,Community Meetup,2025-03-27,Social
+event-287,Cybersecurity Awareness,2023-11-01,Seminar
+event-288,Public Speaking Workshop,2022-11-11,Workshop
+event-289,Software Engineering Best Practices,2026-07-16,Seminar
+event-290,Startup Competition,2023-10-09,Competition
+event-291,Traditional Arts Exhibition,2023-09-29,Cultural
+event-292,Meet the Professionals,2026-07-13,Career
+event-293,Sustainable Technology Conference,2023-12-16,Conference
+event-294,Cybersecurity Conference,2025-01-07,Conference
+event-295,Introduction to Machine Learning,2023-09-12,Seminar
+event-296,Robotics Competition,2023-05-22,Competition
+event-297,Sustainable Technology Conference,2026-04-05,Conference
+event-298,Python Programming Workshop,2025-05-12,Workshop
+event-299,Inter-Club Sports Tournament,2023-01-22,Sports
+event-300,Research Methodology Seminar,2024-11-06,Seminar
