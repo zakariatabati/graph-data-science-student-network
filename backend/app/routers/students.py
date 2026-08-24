@@ -10,16 +10,54 @@ router = APIRouter(
 )
 
 
-@router.get("")
+@router.get(
+    "",
+    summary="Get all students",
+    description="""
+Returns a paginated list of students.
+
+Use `limit` to control the number of returned students and
+`skip` to skip a number of students.
+""",
+    responses={
+        200: {
+            "description": "Students retrieved successfully",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "count": 2,
+                        "students": [
+                            {
+                                "student_id": "1",
+                                "name": "Student 1"
+                            },
+                            {
+                                "student_id": "2",
+                                "name": "Student 2"
+                            }
+                        ]
+                    }
+                }
+            },
+        },
+        422: {
+            "description": "Invalid pagination parameters"
+        },
+    },
+)
 def get_students(
     limit: int = Query(
         default=100,
         ge=1,
         le=500,
+        description="Maximum number of students to return.",
+        examples=[100],
     ),
     skip: int = Query(
         default=0,
         ge=0,
+        description="Number of students to skip.",
+        examples=[0],
     ),
 ):
     students = student_service.get_students(
@@ -33,16 +71,52 @@ def get_students(
     }
 
 
-@router.get("/{student_id}/community")
+@router.get(
+    "/{student_id}/community",
+    summary="Get a student's community",
+    description="""
+Returns the community to which a student belongs according to
+the selected community detection algorithm.
+""",
+    responses={
+        200: {
+            "description": "Student community retrieved successfully",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "algorithm": "louvain",
+                        "student_id": "1",
+                        "community_id": 42
+                    }
+                }
+            },
+        },
+        404: {
+            "description": "Student not found",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "detail": "Student not found"
+                    }
+                }
+            },
+        },
+    },
+)
 def get_student_community(
     student_id: str,
     algorithm: str = Query(
         default="louvain",
-        enum=[
-            "louvain",
-            "leiden",
-            "label_propagation",
-        ],
+        description="""
+Community detection algorithm.
+
+Available values:
+
+- `louvain`
+- `leiden`
+- `label_propagation`
+""",
+        examples=["louvain"],
     ),
 ):
     result = community_service.get_student_community(
@@ -62,7 +136,34 @@ def get_student_community(
     }
 
 
-@router.get("/{student_id}")
+@router.get(
+    "/{student_id}",
+    summary="Get a student by ID",
+    description="Returns detailed information about a specific student.",
+    responses={
+        200: {
+            "description": "Student retrieved successfully",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "student_id": "1",
+                        "name": "Student 1"
+                    }
+                }
+            },
+        },
+        404: {
+            "description": "Student not found",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "detail": "Student not found"
+                    }
+                }
+            },
+        },
+    },
+)
 def get_student(
     student_id: str,
 ):

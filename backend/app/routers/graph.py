@@ -9,7 +9,38 @@ router = APIRouter(
 )
 
 
-@router.get("/stats")
+@router.get(
+    "/stats",
+    summary="Get global graph statistics",
+    description="""
+Returns global statistics about the student social network graph.
+
+The statistics include:
+
+- Number of students
+- Number of friendships
+- Number of clubs
+- Number of events
+""",
+    responses={
+        200: {
+            "description": "Graph statistics retrieved successfully",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "student_count": 1500,
+                        "friendship_count": 7465,
+                        "club_count": 70,
+                        "event_count": 300
+                    }
+                }
+            },
+        },
+        500: {
+            "description": "Failed to retrieve graph statistics"
+        },
+    },
+)
 def get_graph_stats():
 
     stats = graph_service.get_graph_stats()
@@ -17,21 +48,79 @@ def get_graph_stats():
     return stats
 
 
-@router.get("/centrality")
+@router.get(
+    "/centrality",
+    summary="Get centrality rankings",
+    description="""
+Returns students ranked according to a selected graph centrality metric.
+
+Supported metrics:
+
+- `degree`: number of direct connections.
+- `pagerank`: importance based on connected nodes.
+- `betweenness`: importance based on shortest paths.
+- `closeness`: average distance to other nodes.
+""",
+    responses={
+        200: {
+            "description": "Centrality ranking retrieved successfully",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "metric": "degree",
+                        "top_k": 10,
+                        "results": [
+                            {
+                                "student_id": "6",
+                                "name": "Student 6",
+                                "score": 148.0
+                            },
+                            {
+                                "student_id": "10",
+                                "name": "Student 10",
+                                "score": 147.0
+                            }
+                        ]
+                    }
+                }
+            },
+        },
+        400: {
+            "description": "Invalid centrality metric",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "detail": "Invalid centrality metric"
+                    }
+                }
+            },
+        },
+        422: {
+            "description": "Invalid query parameters"
+        },
+    },
+)
 def get_centrality(
     metric: str = Query(
         ...,
-        enum=[
-            "degree",
-            "pagerank",
-            "betweenness",
-            "closeness",
-        ],
+        description="""
+Centrality metric to calculate.
+
+Available values:
+
+- `degree`
+- `pagerank`
+- `betweenness`
+- `closeness`
+""",
+        examples=["degree"],
     ),
     top_k: int = Query(
         default=10,
         ge=1,
         le=100,
+        description="Number of top ranked students to return.",
+        examples=[10],
     ),
 ):
 
