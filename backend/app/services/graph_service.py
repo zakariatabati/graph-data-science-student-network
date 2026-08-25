@@ -1,5 +1,5 @@
 from app.repositories.graph_repository import (
-    graph_repository,
+    graph_repository as neo4j_repository,
     CENTRALITY_PROPERTIES,
 )
 
@@ -7,7 +7,7 @@ from app.repositories.graph_repository import (
 class GraphService:
 
     def get_graph_stats(self):
-        return graph_repository.get_graph_stats()
+        return neo4j_repository.get_graph_stats()
 
     def get_centrality(
         self,
@@ -19,7 +19,7 @@ class GraphService:
                 f"Invalid centrality metric: {metric}"
             )
 
-        return graph_repository.get_centrality(
+        return neo4j_repository.get_centrality(
             metric=metric,
             top_k=top_k,
         )

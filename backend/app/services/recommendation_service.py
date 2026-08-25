@@ -1,5 +1,5 @@
 from app.repositories.recommendation_repository import (
-    recommendation_repository
+    recommendation_repository as neo4j_repository
 )
 
 
@@ -26,7 +26,7 @@ class RecommendationService:
                 f"Invalid method: {method}"
             )
 
-        return recommendation_repository.get_friend_recommendations(
+        return neo4j_repository.get_friend_recommendations(
             student_id=student_id,
             method=method,
             top_k=top_k
@@ -35,14 +35,14 @@ class RecommendationService:
     self,
     student_id: str
     ):
-        return recommendation_repository.get_club_recommendations(
+        return neo4j_repository.get_club_recommendations(
             student_id=student_id
         )
     def get_event_recommendations(
     self,
     student_id: str
     ):
-     return recommendation_repository.get_event_recommendations(
+     return neo4j_repository.get_event_recommendations(
          student_id=student_id
         )
 

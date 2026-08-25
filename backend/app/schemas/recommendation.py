@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Optional
 
 from pydantic import BaseModel
 
@@ -6,7 +6,7 @@ from pydantic import BaseModel
 class FriendRecommendation(BaseModel):
     student_id: str
     score: float
-    student_name: str
+    student_name: Optional[str] = None
     
 class FriendRecommendationResponse(BaseModel):
     student_id: str
@@ -19,7 +19,7 @@ class FriendRecommendationResponse(BaseModel):
 
 class ClubRecommendation(BaseModel):
     club_id: str
-    name: str
+    name: Optional[str] = None
 
 
 class ClubRecommendationResponse(BaseModel):
@@ -29,7 +29,7 @@ class ClubRecommendationResponse(BaseModel):
 
 class EventRecommendation(BaseModel):
     event_id: str
-    name: str
+    name: Optional[str] = None
 
 class EventRecommendationResponse(BaseModel):
     student_id: str

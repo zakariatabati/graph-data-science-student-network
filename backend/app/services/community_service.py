@@ -1,5 +1,5 @@
 from app.repositories.community_repository import (
-    community_repository,
+    community_repository as neo4j_repository,
     ALGORITHM_PROPERTIES,
 )
 
@@ -7,17 +7,17 @@ from app.repositories.community_repository import (
 class CommunityService:
 
     def detect_communities(self, algorithm: str):
-        return community_repository.detect_communities(algorithm)
+        return neo4j_repository.detect_communities(algorithm)
 
     def get_communities(self, algorithm: str):
-        return community_repository.get_communities(algorithm)
+        return neo4j_repository.get_communities(algorithm)
 
     def get_community_by_id(
         self,
         community_id: int,
         algorithm: str,
     ):
-        return community_repository.get_community_by_id(
+        return neo4j_repository.get_community_by_id(
             community_id,
             algorithm,
         )
@@ -27,7 +27,7 @@ class CommunityService:
         student_id: str,
         algorithm: str,
     ):
-        return community_repository.get_student_community(
+        return neo4j_repository.get_student_community(
             student_id,
             algorithm,
         )
